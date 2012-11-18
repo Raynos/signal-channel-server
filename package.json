@@ -28,7 +28,15 @@
       "url": "http://github.com/Raynos/signal-channel-server/raw/master/LICENSE"
     }
   ],
+  "domains": [
+    "signalchannel.co"
+  ],
   "scripts": {
-    "test": "tap --stderr --tap ./test"
+    "test": "tap --stderr --tap ./test",
+    "start": "index.js"
+  },
+  "subdomain": "raynos.signal-channel-server",
+  "engines": {
+    "node": "0.8.x"
   }
 }
