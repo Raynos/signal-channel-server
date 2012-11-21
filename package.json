@@ -17,7 +17,7 @@
     "email": "raynos2@gmail.com"
   },
   "dependencies": {
-    "signal-channel": "~0.2.0"
+    "signal-channel": "~0.2.5"
   },
   "devDependencies": {
     "tap": "~0.3.1"
