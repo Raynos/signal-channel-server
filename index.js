@@ -1,5 +1,5 @@
 var http = require("http")
-    , sock = require("signal-channel")
+    , sock = require("signal-channel/server")
 
 var server = http.createServer(function (req, res) {
     res.end(
@@ -8,3 +8,5 @@ var server = http.createServer(function (req, res) {
 }).listen(8080)
 
 sock.install(server, "/sock")
+
+console.log("listening to port 8080")
