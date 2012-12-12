@@ -1,6 +1,6 @@
 {
   "name": "signal-channel-server",
-  "version": "0.1.1-5",
+  "version": "0.1.1-6",
   "description": "Static server for signal channel",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
